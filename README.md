@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width="995" alt="Screenshot 2023-09-09 at 9 59 30 PM" src="https://github.com/modakverma/Spotify-Clone-NextJs-TypeScript-PostgreSQL-TailwindCSS/assets/90524818/a00cd6a0-a2a8-43d6-a55c-a73da0a18454">
 
-## Getting Started
+## Spotify-Clone
 
 First, run the development server:
 
