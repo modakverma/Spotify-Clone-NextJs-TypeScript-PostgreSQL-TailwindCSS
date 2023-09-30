@@ -12,7 +12,7 @@ import Player from '@/components/Player'
 const font = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Create Next App',
+  title: 'SongiFY',
   description: 'Listen to music!',
 }
 

@@ -1,35 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## SongiFY
+
 <img width="995" alt="Screenshot 2023-09-09 at 9 59 30 PM" src="https://github.com/modakverma/Spotify-Clone-NextJs-TypeScript-PostgreSQL-TailwindCSS/assets/90524818/a00cd6a0-a2a8-43d6-a55c-a73da0a18454">
 
-## Spotify-Clone
 
-First, run the development server:
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+
+## About
+
+SongiFY is a music player web-application using Next.js. It is a web application that replicates some of the core functionality and features of the popular music streaming service 'Spotify'.
+
+
+## Features
+
+- User authentication
+- Search for songs and artists
+- Create and manage playlists
+- Play music
+
+## Installation
+
+Provide detailed instructions on how to install and set up your project locally. Include any prerequisites, dependencies, or environment variables that users need to know about. For example:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone the repository
+git clone https://github.com/modakverma/Spotify-Clone-NextJs-TypeScript-PostgreSQL-TailwindCSS.git
+
+# Change directory
+cd spotify-clone
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+# Create a .env.local file and add your Spotify API credentials
+SPOTIFY_CLIENT_ID=your-client-id
+SPOTIFY_CLIENT_SECRET=your-client-secret
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ # Start the development server
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Access the app in your browser at http://localhost:3000
 
-## Learn More
+## Technologies-Used
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next 13.4
+- React
+- PostgreSQL
+- TailwindCSS
+- Supabase
+- React-icons
