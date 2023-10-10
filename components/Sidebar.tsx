@@ -60,13 +60,11 @@ const Sidebar: React.FC<SidebarProps> = ({children, songs}) => {
                py-4
                '>
                {
-                   routes.map((item)=>(
-                      <div>
+                   routes.map((item,index)=>(
                           <SidebarItem
                        key={item.label}
                        {...item}
                       />
-                      </div>
         
                    ))
                }
